@@ -56,7 +56,7 @@ public class UserController {
 				
 				resobj.setStatus("success");
 				resobj.setMessage("success");
-				resobj.setUserdetail(null);
+				resobj.setUserdetail(user.getUsername());
 				
 			}
 			else {
